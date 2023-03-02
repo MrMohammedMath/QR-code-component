@@ -1,0 +1,28 @@
+.card {
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px 20px 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 15px;
+
+    &__img {
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 25px;
+    }
+
+    &__title {
+        font-size: 1.4em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(35 48 75);
+        margin-bottom: 20px;
+    }
+
+    &__paragraph {
+        color: rgb(129 132 139);
+        font-size: 1em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+}
